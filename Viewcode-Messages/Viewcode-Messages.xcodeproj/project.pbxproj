@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		7C53C44A27A8C37700A20665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C44927A8C37700A20665 /* AppDelegate.swift */; };
 		7C53C44C27A8C37700A20665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C44B27A8C37700A20665 /* SceneDelegate.swift */; };
-		7C53C44E27A8C37700A20665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C44D27A8C37700A20665 /* ViewController.swift */; };
-		7C53C45127A8C37700A20665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C53C44F27A8C37700A20665 /* Main.storyboard */; };
 		7C53C45327A8C37800A20665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C53C45227A8C37800A20665 /* Assets.xcassets */; };
 		7C53C45627A8C37800A20665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C53C45427A8C37800A20665 /* LaunchScreen.storyboard */; };
+		7C53C46C27A8C41700A20665 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C45F27A8C41700A20665 /* LoginViewController.swift */; };
+		7C53C46D27A8C41700A20665 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46127A8C41700A20665 /* LoginScreen.swift */; };
+		7C53C46E27A8C41700A20665 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46327A8C41700A20665 /* Alert.swift */; };
+		7C53C46F27A8C41700A20665 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46627A8C41700A20665 /* RegisterViewController.swift */; };
+		7C53C47027A8C41700A20665 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46827A8C41700A20665 /* RegisterScreen.swift */; };
+		7C53C47127A8C41700A20665 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46A27A8C41700A20665 /* Extensions.swift */; };
+		7C53C47227A8C41700A20665 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46B27A8C41700A20665 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C53C44627A8C37700A20665 /* Viewcode-Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viewcode-Messages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C53C44927A8C37700A20665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C53C44B27A8C37700A20665 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C53C44D27A8C37700A20665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C53C45027A8C37700A20665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C53C45227A8C37800A20665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C53C45527A8C37800A20665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C53C45727A8C37800A20665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C53C45F27A8C41700A20665 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7C53C46127A8C41700A20665 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		7C53C46327A8C41700A20665 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7C53C46627A8C41700A20665 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7C53C46827A8C41700A20665 /* RegisterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		7C53C46A27A8C41700A20665 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7C53C46B27A8C41700A20665 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,84 @@
 		7C53C44827A8C37700A20665 /* Viewcode-Messages */ = {
 			isa = PBXGroup;
 			children = (
+				7C53C46227A8C41700A20665 /* Alert */,
+				7C53C45D27A8C41700A20665 /* Login */,
+				7C53C46427A8C41700A20665 /* Register */,
+				7C53C46927A8C41700A20665 /* Utils */,
 				7C53C44927A8C37700A20665 /* AppDelegate.swift */,
 				7C53C44B27A8C37700A20665 /* SceneDelegate.swift */,
-				7C53C44D27A8C37700A20665 /* ViewController.swift */,
-				7C53C44F27A8C37700A20665 /* Main.storyboard */,
 				7C53C45227A8C37800A20665 /* Assets.xcassets */,
 				7C53C45427A8C37800A20665 /* LaunchScreen.storyboard */,
 				7C53C45727A8C37800A20665 /* Info.plist */,
 			);
 			path = "Viewcode-Messages";
+			sourceTree = "<group>";
+		};
+		7C53C45D27A8C41700A20665 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C45E27A8C41700A20665 /* VC */,
+				7C53C46027A8C41700A20665 /* Screen */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7C53C45E27A8C41700A20665 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C45F27A8C41700A20665 /* LoginViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7C53C46027A8C41700A20665 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C46127A8C41700A20665 /* LoginScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		7C53C46227A8C41700A20665 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C46327A8C41700A20665 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		7C53C46427A8C41700A20665 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C46527A8C41700A20665 /* VC */,
+				7C53C46727A8C41700A20665 /* Screen */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		7C53C46527A8C41700A20665 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C46627A8C41700A20665 /* RegisterViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7C53C46727A8C41700A20665 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C46827A8C41700A20665 /* RegisterScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		7C53C46927A8C41700A20665 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7C53C46A27A8C41700A20665 /* Extensions.swift */,
+				7C53C46B27A8C41700A20665 /* CustomTextField.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +206,6 @@
 			files = (
 				7C53C45627A8C37800A20665 /* LaunchScreen.storyboard in Resources */,
 				7C53C45327A8C37800A20665 /* Assets.xcassets in Resources */,
-				7C53C45127A8C37700A20665 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C53C44E27A8C37700A20665 /* ViewController.swift in Sources */,
+				7C53C46C27A8C41700A20665 /* LoginViewController.swift in Sources */,
+				7C53C46D27A8C41700A20665 /* LoginScreen.swift in Sources */,
 				7C53C44A27A8C37700A20665 /* AppDelegate.swift in Sources */,
+				7C53C47127A8C41700A20665 /* Extensions.swift in Sources */,
+				7C53C47027A8C41700A20665 /* RegisterScreen.swift in Sources */,
+				7C53C46F27A8C41700A20665 /* RegisterViewController.swift in Sources */,
+				7C53C46E27A8C41700A20665 /* Alert.swift in Sources */,
 				7C53C44C27A8C37700A20665 /* SceneDelegate.swift in Sources */,
+				7C53C47227A8C41700A20665 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C53C44F27A8C37700A20665 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C53C45027A8C37700A20665 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C53C45427A8C37800A20665 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +370,6 @@
 				INFOPLIST_FILE = "Viewcode-Messages/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +397,6 @@
 				INFOPLIST_FILE = "Viewcode-Messages/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
