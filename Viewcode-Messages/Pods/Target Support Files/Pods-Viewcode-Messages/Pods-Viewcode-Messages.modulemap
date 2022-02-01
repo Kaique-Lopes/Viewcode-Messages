@@ -1,0 +1,6 @@
+framework module Pods_Viewcode_Messages {
+  umbrella header "Pods-Viewcode-Messages-umbrella.h"
+
+  export *
+  module * { export * }
+}
