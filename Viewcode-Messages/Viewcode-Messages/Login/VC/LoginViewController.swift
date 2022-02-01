@@ -53,8 +53,7 @@ extension LoginViewController: LoginScreenProtocol{
 //                    }
 //            }
 //        })
-        let homeVC: HomeViewController = HomeViewController()
-        self.navigationController?.pushViewController(homeVC, animated: true)
+//        self.navigationController?.pushViewController(homeVC, animated: true)
     }
     
     func actionRegisterButton() {
