@@ -18,6 +18,7 @@
 		7C53C47027A8C41700A20665 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46827A8C41700A20665 /* RegisterScreen.swift */; };
 		7C53C47127A8C41700A20665 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46A27A8C41700A20665 /* Extensions.swift */; };
 		7C53C47227A8C41700A20665 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46B27A8C41700A20665 /* CustomTextField.swift */; };
+		7C66A31D27A8D1F100C1C433 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C66A31C27A8D1F100C1C433 /* GoogleService-Info.plist */; };
 		88AE59E5D6B6463645BB53EF /* Pods_Viewcode_Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECDBE7742925ADB9943FE4B /* Pods_Viewcode_Messages.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		7C53C46827A8C41700A20665 /* RegisterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		7C53C46A27A8C41700A20665 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7C53C46B27A8C41700A20665 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7C66A31C27A8D1F100C1C433 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9ECDBE7742925ADB9943FE4B /* Pods_Viewcode_Messages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viewcode_Messages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				7C53C44B27A8C37700A20665 /* SceneDelegate.swift */,
 				7C53C45227A8C37800A20665 /* Assets.xcassets */,
 				7C53C45427A8C37800A20665 /* LaunchScreen.storyboard */,
+				7C66A31C27A8D1F100C1C433 /* GoogleService-Info.plist */,
 				7C53C45727A8C37800A20665 /* Info.plist */,
 			);
 			path = "Viewcode-Messages";
@@ -167,7 +170,6 @@
 				588519E5F982A6A9871A8182 /* Pods-Viewcode-Messages.debug.xcconfig */,
 				2D625A73504B065334A8F7D4 /* Pods-Viewcode-Messages.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -232,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C53C45627A8C37800A20665 /* LaunchScreen.storyboard in Resources */,
+				7C66A31D27A8D1F100C1C433 /* GoogleService-Info.plist in Resources */,
 				7C53C45327A8C37800A20665 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
