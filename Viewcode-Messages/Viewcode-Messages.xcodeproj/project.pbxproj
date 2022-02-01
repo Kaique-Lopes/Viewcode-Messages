@@ -92,6 +92,7 @@
 				7C53C46227A8C41700A20665 /* Alert */,
 				7C53C45D27A8C41700A20665 /* Login */,
 				7C53C46427A8C41700A20665 /* Register */,
+				7C66A32427A8DA1D00C1C433 /* Fonts */,
 				7C53C46927A8C41700A20665 /* Utils */,
 				7C53C44927A8C37700A20665 /* AppDelegate.swift */,
 				7C53C44B27A8C37700A20665 /* SceneDelegate.swift */,
@@ -171,6 +172,13 @@
 				7C53C46B27A8C41700A20665 /* CustomTextField.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		7C66A32427A8DA1D00C1C433 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		DAE49756D1A6D800590B956E /* Pods */ = {
