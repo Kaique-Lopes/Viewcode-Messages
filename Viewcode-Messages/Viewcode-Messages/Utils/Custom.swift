@@ -8,10 +8,8 @@
 import Foundation
 import UIKit
 
-struct CustomColor {
-    
-}
-
 struct CustomFont {
-    
+    static let poppinsMedium = "Poppins-Medium"
+    static let poppinsBold = "Poppins-Bold"
+    static let poppinsSemiBold = "Poppins-SemiBold"
 }
