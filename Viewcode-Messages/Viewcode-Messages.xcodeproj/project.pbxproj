@@ -19,6 +19,9 @@
 		7C53C47127A8C41700A20665 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46A27A8C41700A20665 /* Extensions.swift */; };
 		7C53C47227A8C41700A20665 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46B27A8C41700A20665 /* CustomTextField.swift */; };
 		7C54CADF27B092DD003631E4 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54CADE27B092DD003631E4 /* Custom.swift */; };
+		7C54CAE327B09644003631E4 /* Poppins Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C54CAE027B09643003631E4 /* Poppins Bold.ttf */; };
+		7C54CAE427B09644003631E4 /* Poppins Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C54CAE127B09644003631E4 /* Poppins Medium.ttf */; };
+		7C54CAE527B09644003631E4 /* Poppins SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C54CAE227B09644003631E4 /* Poppins SemiBold.ttf */; };
 		7C66A31D27A8D1F100C1C433 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C66A31C27A8D1F100C1C433 /* GoogleService-Info.plist */; };
 		7C66A31F27A8D99B00C1C433 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66A31E27A8D99B00C1C433 /* Extension+UIView.swift */; };
 		7C66A32127A8D9CA00C1C433 /* Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66A32027A8D9CA00C1C433 /* Extension+Button.swift */; };
@@ -43,6 +46,9 @@
 		7C53C46A27A8C41700A20665 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7C53C46B27A8C41700A20665 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		7C54CADE27B092DD003631E4 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		7C54CAE027B09643003631E4 /* Poppins Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins Bold.ttf"; sourceTree = "<group>"; };
+		7C54CAE127B09644003631E4 /* Poppins Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins Medium.ttf"; sourceTree = "<group>"; };
+		7C54CAE227B09644003631E4 /* Poppins SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins SemiBold.ttf"; sourceTree = "<group>"; };
 		7C66A31C27A8D1F100C1C433 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C66A31E27A8D99B00C1C433 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		7C66A32027A8D9CA00C1C433 /* Extension+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Button.swift"; sourceTree = "<group>"; };
@@ -188,6 +194,9 @@
 		7C66A32427A8DA1D00C1C433 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				7C54CAE027B09643003631E4 /* Poppins Bold.ttf */,
+				7C54CAE127B09644003631E4 /* Poppins Medium.ttf */,
+				7C54CAE227B09644003631E4 /* Poppins SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -263,6 +272,9 @@
 			files = (
 				7C53C45627A8C37800A20665 /* LaunchScreen.storyboard in Resources */,
 				7C66A31D27A8D1F100C1C433 /* GoogleService-Info.plist in Resources */,
+				7C54CAE527B09644003631E4 /* Poppins SemiBold.ttf in Resources */,
+				7C54CAE427B09644003631E4 /* Poppins Medium.ttf in Resources */,
+				7C54CAE327B09644003631E4 /* Poppins Bold.ttf in Resources */,
 				7C53C45327A8C37800A20665 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
