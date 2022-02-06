@@ -18,6 +18,7 @@
 		7C53C47027A8C41700A20665 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46827A8C41700A20665 /* RegisterScreen.swift */; };
 		7C53C47127A8C41700A20665 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46A27A8C41700A20665 /* Extensions.swift */; };
 		7C53C47227A8C41700A20665 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C53C46B27A8C41700A20665 /* CustomTextField.swift */; };
+		7C54CADF27B092DD003631E4 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54CADE27B092DD003631E4 /* Custom.swift */; };
 		7C66A31D27A8D1F100C1C433 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C66A31C27A8D1F100C1C433 /* GoogleService-Info.plist */; };
 		7C66A31F27A8D99B00C1C433 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66A31E27A8D99B00C1C433 /* Extension+UIView.swift */; };
 		7C66A32127A8D9CA00C1C433 /* Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66A32027A8D9CA00C1C433 /* Extension+Button.swift */; };
@@ -41,6 +42,7 @@
 		7C53C46827A8C41700A20665 /* RegisterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		7C53C46A27A8C41700A20665 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7C53C46B27A8C41700A20665 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7C54CADE27B092DD003631E4 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 		7C66A31C27A8D1F100C1C433 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C66A31E27A8D99B00C1C433 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		7C66A32027A8D9CA00C1C433 /* Extension+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Button.swift"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				7C66A32227A8D9E400C1C433 /* Extension+String.swift */,
 				7C53C46A27A8C41700A20665 /* Extensions.swift */,
 				7C53C46B27A8C41700A20665 /* CustomTextField.swift */,
+				7C54CADE27B092DD003631E4 /* Custom.swift */,
 				7C66A32427A8DA1D00C1C433 /* Fonts */,
 				7C54CADD27B09134003631E4 /* Sound */,
 			);
@@ -316,6 +319,7 @@
 				7C53C46C27A8C41700A20665 /* LoginViewController.swift in Sources */,
 				7C53C46D27A8C41700A20665 /* LoginScreen.swift in Sources */,
 				7C53C44A27A8C37700A20665 /* AppDelegate.swift in Sources */,
+				7C54CADF27B092DD003631E4 /* Custom.swift in Sources */,
 				7C53C47127A8C41700A20665 /* Extensions.swift in Sources */,
 				7C53C47027A8C41700A20665 /* RegisterScreen.swift in Sources */,
 				7C66A32127A8D9CA00C1C433 /* Extension+Button.swift in Sources */,
