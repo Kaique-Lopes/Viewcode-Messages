@@ -94,7 +94,7 @@ class RegisterScreen: UIView {
     }
     
     func validateTextFields() {
-        if !getEmail().isEmpty && !getPassword().isEmpty {
+        if !getName().isEmpty && !getEmail().isEmpty && !getPassword().isEmpty {
             self.configButtonEnable(on: true)
         } else {
             self.configButtonEnable(on: false)
@@ -109,6 +109,10 @@ class RegisterScreen: UIView {
             self.registerButton.setTitleColor(.lightGray, for: .normal)
             self.registerButton.isEnabled = false
         }
+    }
+    
+    public func getName() -> String {
+        return self.nameTextField.text ?? ""
     }
     
     public func getEmail() -> String {
