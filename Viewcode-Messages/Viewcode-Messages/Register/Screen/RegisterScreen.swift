@@ -84,6 +84,7 @@ class RegisterScreen: UIView {
     
     // MARK: - Close Keyboard Delegate
     func configTextFieldDelegate(delegate: UITextFieldDelegate){
+        self.nameTextField.delegate = delegate
         self.emailTextField.delegate = delegate
         self.passwordTextField.delegate = delegate
     }
