@@ -18,7 +18,13 @@ class RegisterScreen: UIView {
     func delegate(delegate: RegisterScreenProtocol){
         self.delegate = delegate
     }
-
+    lazy var nameTextField: CustomTextField = {
+        var tf = CustomTextField(placeholder: "Digite seu nome")
+        tf.translatesAutoresizingMaskIntoConstraints = false
+        tf.keyboardType = .emailAddress
+        tf.keyboardAppearance = .dark
+        return tf
+    }()
     lazy var imageAddUser: UIImageView = {
         var image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
@@ -73,6 +79,7 @@ class RegisterScreen: UIView {
         self.addSubview(self.emailTextField)
         self.addSubview(self.passwordTextField)
         self.addSubview(self.registerButton)
+        self.addSubview(self.nameTextField)
     }
     
     // MARK: - Close Keyboard Delegate
