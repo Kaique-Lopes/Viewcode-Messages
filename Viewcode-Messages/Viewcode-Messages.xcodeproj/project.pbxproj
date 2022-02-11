@@ -27,6 +27,7 @@
 		7C66A31F27A8D99B00C1C433 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66A31E27A8D99B00C1C433 /* Extension+UIView.swift */; };
 		7C66A32127A8D9CA00C1C433 /* Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66A32027A8D9CA00C1C433 /* Extension+Button.swift */; };
 		7C66A32327A8D9E400C1C433 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C66A32227A8D9E400C1C433 /* Extension+String.swift */; };
+		7CC26EEF27B6081100EDED68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC26EEE27B6081100EDED68 /* HomeViewController.swift */; };
 		88AE59E5D6B6463645BB53EF /* Pods_Viewcode_Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECDBE7742925ADB9943FE4B /* Pods_Viewcode_Messages.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		7C66A31E27A8D99B00C1C433 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		7C66A32027A8D9CA00C1C433 /* Extension+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Button.swift"; sourceTree = "<group>"; };
 		7C66A32227A8D9E400C1C433 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		7CC26EEE27B6081100EDED68 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9ECDBE7742925ADB9943FE4B /* Pods_Viewcode_Messages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viewcode_Messages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				7C53C46227A8C41700A20665 /* Alert */,
+				7CC26EED27B607E400EDED68 /* Home */,
 				7C53C45D27A8C41700A20665 /* Login */,
 				7C53C46427A8C41700A20665 /* Register */,
 				7C53C46927A8C41700A20665 /* Utils */,
@@ -202,6 +205,14 @@
 				7C54CAE227B09644003631E4 /* Poppins-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7CC26EED27B607E400EDED68 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7CC26EEE27B6081100EDED68 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		DAE49756D1A6D800590B956E /* Pods */ = {
@@ -337,6 +348,7 @@
 				7C53C44A27A8C37700A20665 /* AppDelegate.swift in Sources */,
 				7C54CADF27B092DD003631E4 /* Custom.swift in Sources */,
 				7C53C47127A8C41700A20665 /* Extensions.swift in Sources */,
+				7CC26EEF27B6081100EDED68 /* HomeViewController.swift in Sources */,
 				7C53C47027A8C41700A20665 /* RegisterScreen.swift in Sources */,
 				7C66A32127A8D9CA00C1C433 /* Extension+Button.swift in Sources */,
 				7C53C46F27A8C41700A20665 /* RegisterViewController.swift in Sources */,
