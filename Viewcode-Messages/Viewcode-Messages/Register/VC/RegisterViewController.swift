@@ -50,6 +50,14 @@ extension RegisterViewController: RegisterScreenProtocol {
             if error != nil {
                 
             } else {
+                if let idUsuario = result?.user.uid {
+                    self.firestore?.collection("Usuarios").document(idUsuario).setData([
+                        "nome": self.registerScreen?.getName() ?? "",
+                        "e-mail": self.registerScreen?.getEmail() ?? "",
+                        "id": idUsuario
+                    ])
+                }
+
                 self.alert?.getAlert(title: "Sucesso", message: "Conta Criada", completion: {
                     self.navigationController?.popViewController(animated: true)
                     
