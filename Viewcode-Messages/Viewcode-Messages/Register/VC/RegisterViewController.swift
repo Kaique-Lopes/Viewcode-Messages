@@ -13,6 +13,7 @@ class RegisterViewController: UIViewController {
     // MARK: - Creating RegisterScreen instance for the viewcontroller to see its methods
     var registerScreen: RegisterScreen?
     var auth: Auth?
+    var firestore: Firestore?
     var alert: Alert?
     
     // MARK: - Create The UI Elements
@@ -20,6 +21,7 @@ class RegisterViewController: UIViewController {
         self.registerScreen = RegisterScreen()
         self.view = self.registerScreen
         self.auth = Auth.auth()
+        self.firestore = Firestore.firestore()
         self.alert = Alert(controller: self)
     }
     
