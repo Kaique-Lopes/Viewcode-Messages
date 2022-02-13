@@ -212,8 +212,9 @@
 		7CC26EED27B607E400EDED68 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7CE8484F27B9CC3600261078 /* NavView */,
+				7CE8484E27B9CA0400261078 /* VC */,
 				7CC26EF027B6086200EDED68 /* Screen */,
-				7CC26EEE27B6081100EDED68 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -224,6 +225,21 @@
 				7CC26EF127B608B000EDED68 /* HomeScreen.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		7CE8484E27B9CA0400261078 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7CC26EEE27B6081100EDED68 /* HomeViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7CE8484F27B9CC3600261078 /* NavView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavView;
 			sourceTree = "<group>";
 		};
 		DAE49756D1A6D800590B956E /* Pods */ = {
