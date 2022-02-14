@@ -105,10 +105,10 @@
 		7C53C44827A8C37700A20665 /* Viewcode-Messages */ = {
 			isa = PBXGroup;
 			children = (
-				7C53C46227A8C41700A20665 /* Alert */,
 				7CC26EED27B607E400EDED68 /* Home */,
-				7C53C45D27A8C41700A20665 /* Login */,
 				7C53C46427A8C41700A20665 /* Register */,
+				7C53C45D27A8C41700A20665 /* Login */,
+				7C53C46227A8C41700A20665 /* Alert */,
 				7C53C46927A8C41700A20665 /* Utils */,
 				7C53C44927A8C37700A20665 /* AppDelegate.swift */,
 				7C53C44B27A8C37700A20665 /* SceneDelegate.swift */,
@@ -123,8 +123,8 @@
 		7C53C45D27A8C41700A20665 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				7C53C45E27A8C41700A20665 /* VC */,
 				7C53C46027A8C41700A20665 /* Screen */,
+				7C53C45E27A8C41700A20665 /* VC */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -214,9 +214,9 @@
 		7CC26EED27B607E400EDED68 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				7CE8484F27B9CC3600261078 /* NavView */,
-				7CE8484E27B9CA0400261078 /* VC */,
 				7CC26EF027B6086200EDED68 /* Screen */,
+				7CE8484E27B9CA0400261078 /* VC */,
+				7CE8484F27B9CC3600261078 /* NavView */,
 			);
 			path = Home;
 			sourceTree = "<group>";

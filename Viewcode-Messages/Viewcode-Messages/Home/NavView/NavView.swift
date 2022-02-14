@@ -47,10 +47,19 @@ class NavView: UIView {
         return label
     }()
     
-    lazy var searchBtn: UIButton = {
+    lazy var searchButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(UIImage(named: "search"), for: .normal)
+        return button
+    }()
+    
+    lazy var messageButton: UIButton = {
+       let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(named: "message")?.withRenderingMode(.alwaysTemplate), for: .normal)
+        button.tintColor = .systemPink
+        //to do Target
         return button
     }()
     
