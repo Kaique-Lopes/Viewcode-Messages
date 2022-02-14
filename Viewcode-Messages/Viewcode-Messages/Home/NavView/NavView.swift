@@ -38,7 +38,13 @@ class NavView: UIView {
         return view
     }()
     
-    lazy var searchLabel
+    lazy var searchLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "Digite aqui"
+        label.font = UIFont(name: CustomFont.poppinsMedium, size: 16)
+        return label
+    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
