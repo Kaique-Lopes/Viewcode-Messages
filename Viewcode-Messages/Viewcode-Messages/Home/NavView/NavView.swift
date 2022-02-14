@@ -29,6 +29,17 @@ class NavView: UIView {
         return view
     }()
     
+    lazy var searchBar: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .gray
+        view.clipsToBounds = true
+        view.layer.cornerRadius = 20
+        return view
+    }()
+    
+    lazy var searchLabel
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
