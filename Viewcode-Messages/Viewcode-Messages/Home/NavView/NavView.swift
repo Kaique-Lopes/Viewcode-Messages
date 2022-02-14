@@ -43,7 +43,15 @@ class NavView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Digite aqui"
         label.font = UIFont(name: CustomFont.poppinsMedium, size: 16)
+        label.textColor = .lightGray
         return label
+    }()
+    
+    lazy var searchBtn: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(named: "search"), for: .normal)
+        return button
     }()
     
     override init(frame: CGRect) {
