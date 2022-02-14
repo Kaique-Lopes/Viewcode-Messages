@@ -54,6 +54,15 @@ class NavView: UIView {
         return button
     }()
     
+    lazy var stackView: UIStackView = {
+        let stack = UIStackView()
+        stack.translatesAutoresizingMaskIntoConstraints = false
+        stack.distribution = .fillEqually
+        stack.axis = .horizontal
+        stack.spacing = 10
+        return stack
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
