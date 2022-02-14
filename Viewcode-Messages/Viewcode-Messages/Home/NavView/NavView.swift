@@ -22,6 +22,13 @@ class NavView: UIView {
         return view
     }()
     
+    lazy var navBar: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .clear
+        return view
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
