@@ -63,6 +63,16 @@ class NavView: UIView {
         return button
     }()
     
+    lazy var contactButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(named: "group")?.withRenderingMode(.alwaysTemplate), for: .normal)
+        button.tintColor = .systemPink
+        //to do Target
+        return button
+    }()
+    
+    
     lazy var stackView: UIStackView = {
         let stack = UIStackView()
         stack.translatesAutoresizingMaskIntoConstraints = false
