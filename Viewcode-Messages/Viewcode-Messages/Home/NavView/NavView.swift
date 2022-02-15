@@ -7,6 +7,13 @@
 
 import UIKit
 
+enum TypeMessageOrContact {
+    case contact
+    case message
+}
+
+
+
 class NavView: UIView {
     
     lazy var navBackGroundView: UIView = {
