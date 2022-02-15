@@ -12,9 +12,15 @@ enum TypeMessageOrContact {
     case message
 }
 
-
+protocol NavViewProtocol: AnyObject {
+    func typeScreenMessage(type: TypeMessageOrContact)
+}
 
 class NavView: UIView {
+    weak private var delegate: NavViewProtocol?
+    func delegate(delegate: NavViewProtocol?){
+        self.delegate = delegate
+    }
     
     lazy var navBackGroundView: UIView = {
         let view = UIView()
@@ -90,11 +96,13 @@ class NavView: UIView {
     }()
     
     @objc func tappedMessageButton() {
+        self.delegate?.typeScreenMessage(type: .message)
         self.messageButton.tintColor = .systemPink
         self.contactButton.tintColor = .black
     }
     
     @objc func tappedContactButton(){
+        self.delegate?.typeScreenMessage(type: .contact)
         self.messageButton.tintColor = .black
         self.contactButton.tintColor = .systemPink
     }
