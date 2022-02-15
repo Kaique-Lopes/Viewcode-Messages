@@ -82,6 +82,11 @@ class NavView: UIView {
         return stack
     }()
     
+    @objc func tappedContactButton(){
+        self.messageButton.tintColor = .black
+        self.contactButton.tintColor = .systemPink
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
