@@ -59,7 +59,7 @@ class NavView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(UIImage(named: "message")?.withRenderingMode(.alwaysTemplate), for: .normal)
         button.tintColor = .systemPink
-        //to do Target
+        button.addTarget(self, action: #selector(self.tappedMessageButton), for: .touchUpInside)
         return button
     }()
     
@@ -81,6 +81,11 @@ class NavView: UIView {
         stack.spacing = 10
         return stack
     }()
+    
+    @objc func tappedMessageButton() {
+        self.messageButton.tintColor = .systemPink
+        self.contactButton.tintColor = .black
+    }
     
     @objc func tappedContactButton(){
         self.messageButton.tintColor = .black
