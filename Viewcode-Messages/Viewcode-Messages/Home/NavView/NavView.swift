@@ -127,5 +127,11 @@ class NavView: UIView {
                            left: self.leftAnchor,
                            bottom: self.bottomAnchor,
                            right: self.rightAnchor)
+        
+        self.searchBar.anchor(left: self.navBar.leftAnchor,
+                              right: self.navBar.rightAnchor,
+                              paddingLeft: 30,
+                              paddingRight: 20,
+                              height: 55)
     }
 }
