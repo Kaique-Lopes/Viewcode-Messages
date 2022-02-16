@@ -107,6 +107,8 @@ class NavView: UIView {
         self.contactButton.tintColor = .systemPink
     }
     
+
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -115,6 +117,10 @@ class NavView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
-
+    func setupConstraints() {
+        self.navBackGroundView.anchor(top: self.topAnchor,
+                                      left: self.leftAnchor,
+                                      bottom: self.bottomAnchor,
+                                      right: self.rightAnchor)
+    }
 }
