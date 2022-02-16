@@ -122,5 +122,10 @@ class NavView: UIView {
                                       left: self.leftAnchor,
                                       bottom: self.bottomAnchor,
                                       right: self.rightAnchor)
+        
+        self.navBar.anchor(top: self.safeAreaLayoutGuide.topAnchor,
+                           left: self.leftAnchor,
+                           bottom: self.bottomAnchor,
+                           right: self.rightAnchor)
     }
 }
