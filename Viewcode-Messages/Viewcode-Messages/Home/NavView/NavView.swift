@@ -133,5 +133,11 @@ class NavView: UIView {
                               paddingLeft: 30,
                               paddingRight: 20,
                               height: 55)
+        //todo centerY
+        
+        self.stackView.anchor(left: self.navBar.leftAnchor,
+                              width: 100,
+                              height: 30)
+        //todo centerY
     }
 }
