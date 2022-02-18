@@ -139,5 +139,13 @@ class NavView: UIView {
                               width: 100,
                               height: 30)
         //todo centerY
+        
+        self.stackView.anchor(left: self.navBar.leftAnchor,
+                              width: 100,
+                              height: 30)
+        
+        self.stackView.anchor(left: self.messageButton.leftAnchor)
+
+        
     }
 }
