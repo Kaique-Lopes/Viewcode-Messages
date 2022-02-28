@@ -150,7 +150,6 @@ class NavView: UIView {
         
         self.searchLabel.anchor(left: self.leftAnchor, paddingLeft: 25)
         
-        self.searchButton.anchor(right: self.rightAnchor, paddingRight: 20)
-
+        self.searchButton.anchor(right: self.rightAnchor, paddingRight: 20, width: 20, height: 20)
     }
 }
