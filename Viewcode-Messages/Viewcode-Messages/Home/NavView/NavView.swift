@@ -144,9 +144,9 @@ class NavView: UIView {
                               width: 100,
                               height: 30)
         
-        self.stackView.anchor(left: self.messageButton.leftAnchor)
+       // self.stackView.anchor(left: self.messageButton.leftAnchor)
 
-        self.stackView.anchor(left: self.contactButton.leftAnchor)
+        //self.stackView.anchor(left: self.contactButton.leftAnchor)
 
     }
 }
